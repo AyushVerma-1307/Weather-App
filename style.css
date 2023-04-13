@@ -227,3 +227,18 @@ h1 {
     border-radius: 100%;
     margin-bottom:1px;
 }
+.error-control{
+    display: none;
+}
+.error-control.active{
+    display: flex;
+}
+.error-control img{
+    width: 20%;
+    /* height: 50%; */
+}
+.error-control p{
+    font-size: 1.15rem;
+    font-weight:600;
+    text-transform: uppercase;
+}
